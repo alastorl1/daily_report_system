@@ -1,12 +1,10 @@
 package models.validators;
 
-import java.util.ArrayList;
 import java.util.List;
-
-import javax.persistence.EntityManager;
-
 import models.Employee;
+import java.util.ArrayList;
 import utils.DBUtil;
+import javax.persistence.EntityManager;
 
 public class EmployeeValidator {
 
