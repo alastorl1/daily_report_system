@@ -60,7 +60,6 @@ public class EmployeesUpdate extends HttpServlet {
                                 (String)this.getServletContext().getAttribute("salt")
                                 )
                         );
-
             }
 
             e.setName(request.getParameter("name"));
@@ -88,7 +87,5 @@ public class EmployeesUpdate extends HttpServlet {
 
                 response.sendRedirect(request.getContextPath() + "/employees/index");
             }
-
     }
-
 }
